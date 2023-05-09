@@ -1,0 +1,16 @@
+{
+  "employee": [
+    {
+      "name": "Ravi p",
+      "age": "20",
+      "joindate": "2023-05-13",
+      "id": 1
+    },
+    {
+      "name": "pavithra",
+      "age": "20",
+      "joindate": "2023-05-11",
+      "id": 2
+    }
+  ]
+}
