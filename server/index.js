@@ -55,9 +55,7 @@ app.get("/get", async (req, res)=>{
 
   if (id === _id) {
     try {
-      const user = await User.findByIdAndUpdate(id, req.body, {
-        new: true,
-      });
+      const user = await User.findByIdAndUpdate(id, req.body);
       res.status(200).json({user});
     } catch (error) {
       res.status(500).json(error);
