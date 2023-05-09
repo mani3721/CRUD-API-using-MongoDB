@@ -48,7 +48,6 @@ app.get("/get", async (req, res)=>{
 
  //update method
 
- // update a user
  app.put("/put/:id", async (req, res)=>{
   const id = req.params.id;
   const { _id,name,age,joindate } = req.body;
