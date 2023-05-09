@@ -3,10 +3,8 @@ app=express()
 const mongoose=require('mongoose')
 app.use(express.json())
 const bcrypt =require('bcrypt') 
-
 const cors= require('cors')
-const jwt =require('jsonwebtoken')
-JWT_KEY="MERN"
+
 // Middleware
 app.use(cors())
 
